@@ -1,13 +1,10 @@
 import os
 import shutil
-
-import os
-import shutil
-import pandas as pd
+import panda as pd
 from docx.shared import Mm
 import docxtpl
 
-########################## Configuracion del usuario###################################
+########################## Configuracion del usuario ###################################
 
 # Ruta de salida
 OUTPUT_PATH = '..\Outputs'
