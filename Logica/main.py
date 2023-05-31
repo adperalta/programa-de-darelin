@@ -4,6 +4,11 @@ import panda as pd
 from docx.shared import Mm
 import docxtpl
 
+import Carta
+import Directivo
+import Estudiante
+
+
 ########################## Configuracion del usuario ###################################
 
 # Ruta de salida
