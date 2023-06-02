@@ -1,10 +1,11 @@
 class Estudiante:
-    def __init__(self,IDEst,Name,Sex,LastN,Thesis):
+    def __init__(self,IDEst,Name,Sex,LastN,Thesis,Cal):
         self.ID = IDEst
         self.Sex = Sex
         self.Name = Name
         self.LastN = LastN
         self.Thesis = Thesis
+        self.Cal= Cal = Cal
     
     def getId(self):
         return self.IDEst
@@ -29,3 +30,16 @@ class Estudiante:
     
     def setLastN(self,LastN):
         self.LastN = LastN
+
+    def getThesis(self):
+        return self.Thesis
+    
+    def setLastN(self,Thesis):
+        self.Thesis = Thesis
+
+    def getCal(self):
+        return self.Cal
+    
+    def setCal(self,Cal):
+        self.Cal = Cal
+

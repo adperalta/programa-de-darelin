@@ -36,12 +36,12 @@ def EliminarCrearCarpetas(path):
 '''Crear Csv para plantilla de datos de las cartas'''
 def CrearCsV():
 
-    headers =['ID','Name','Last Name','Sexo','Email']
+    headers =['ID','Name','Last Name','Sexo','Thesis','Calificasiones']
     Users =[
-        ['2012-0990', 'Adrian','Peralta','M', 'user1@pywombat.com'],
-        ['2011-1516', 'Pamela','Peralta','F', 'user2@pywombat.com'],
-        ['2022-2203', 'John','Peralta','M','user3@pywombat.com'],
-        ['2023-5569', 'Josefa','Peralta','F', 'user3@pywombat.com'],
+        ['2012-0990', 'Adrian','Peralta','M', 'Antiransomware','95'],
+        ['2011-1516', 'Pamela','Peralta','F', 'Rabia en los perro de la universidad isa','84'],
+        ['2022-2203', 'John','Peralta','M','Control de plagas en invernaderos ','60'],
+        ['2023-5569', 'Josefa','Peralta','F', 'Avances climaticos el campos agrarios','76'],
     ]
 
     with open('users.csv', mode='w', newline='') as file:

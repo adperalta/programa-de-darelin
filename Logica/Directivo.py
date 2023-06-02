@@ -9,5 +9,22 @@ class Directivo():
         return self.IDdir
     
     def setId(self,IDdir):
-        self.IDdir =  IDdir   
+        self.IDdir =  IDdir 
 
+    def getName(self):
+        return self.Name
+    
+    def setId(self,Name):
+        self.Name =  Name
+
+    def getSex(self):
+        return self.Sex
+    
+    def setId(self,Sex):
+        self.Sex =  Sex
+
+    def getPuesto(self):
+        return self.Puesto
+    
+    def setPuesto(self,Puesto):
+        self.Puesto =  Puesto
